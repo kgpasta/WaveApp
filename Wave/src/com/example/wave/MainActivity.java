@@ -75,19 +75,13 @@ public class MainActivity extends Activity implements AnimationListener {
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_main);
 		
-		startButton = (Button) findViewById(R.id.start_swimming);
-		waveText = (TextView) findViewById(R.id.wave_text);
-		profileText = (TextView) findViewById(R.id.profile_text);
-		swimText = (TextView) findViewById(R.id.swim_text);
-		storeText = (TextView) findViewById(R.id.store_text);
-		settingsText = (TextView) findViewById(R.id.settings_text);
-		Typeface type=Typeface.createFromAsset(getApplicationContext().getAssets(), "fonts/open-sans/OpenSans-Light.ttf");
+		/*Typeface type=Typeface.createFromAsset(getApplicationContext().getAssets(), "fonts/open-sans/OpenSans-Light.ttf");
 		startButton.setTypeface(type);
 		waveText.setTypeface(type);
 		profileText.setTypeface(type);
 		swimText.setTypeface(type);
 		storeText.setTypeface(type);
-		settingsText.setTypeface(type);
+		settingsText.setTypeface(type);*/
 		
 		
         menu = findViewById(R.id.menu);

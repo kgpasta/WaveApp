@@ -2,82 +2,60 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F3EEF0"
+    android:background="#F0F0F0"
     android:gravity="center"
     android:orientation="vertical" >
     
-    <LinearLayout android:id="@+id/menu" android:layout_width="match_parent" android:layout_height="fill_parent"
-        android:orientation="vertical" android:background="#417ABD">
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/slider_background"
+        android:orientation="vertical" >
 
-        <TextView
-            android:id="@+id/wave_text"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:background="#AAAAAA"
-            android:gravity="center"
-            android:text="Wave"
-            android:textColor="#3C63B0"
-            android:textSize="48sp"
-            android:textStyle="bold" />
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:maxHeight="20dp"
+            android:src="@drawable/name" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/black"
-            android:gravity="center_horizontal"
-            android:textSize="26sp" />
-
-        <TextView
-            android:id="@+id/profile_text"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Profile"
-            android:textColor="#E4E4E4"
-            android:textSize="26sp" />
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile" />
 
-        <TextView
-            android:id="@+id/swim_text"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Swim"
-            android:textColor="#E4E4E4"
-            android:textSize="26sp" />
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/history" />
 
-        <TextView
-            android:id="@+id/store_text"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Store"
-            android:textColor="#E4E4E4"
-            android:textSize="26sp" />
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/swim" />
 
-        <TextView
-            android:id="@+id/settings_text"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_weight="0.5"
-            android:gravity="center"
-            android:text="Settings"
-            android:textColor="#E4E4E4"
-            android:textSize="26sp" />
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/shop" />
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25" />
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/settings" />
 
     </LinearLayout>
 
